@@ -2,33 +2,85 @@
 layout: default
 ---
 
+<div id="hero">
+  <div
+    class="uk-height-viewport uk-flex uk-flex-center uk-flex-column uk-flex-middle uk-background-cover uk-light animated fadeIn delay-1s fast"
+    data-src="assets/img/home.jpg" uk-img>
+    <div class="uk-container uk-container-xlarge uk-text-center uk-width-2-3@m">
+      <div>
+        <!-- <img class="logo-footer-70 animated fadeInUp delay-2s fast" style="margin-top: 120px;" data-src="/assets/images/logo-network-white.svg" uk-img> -->
+        <h1 class="animated fadeInUp delay-2s fast uk-margin-large-top"> Transforma Puerto Varas
+        </h1>
+        <h3 class="animated fadeInUp delay-2s fast uk-text-light"> home.hero_network.title 
+        </h3>
+        <!--<a href="{{ site.baseurl_root }}/network" class="uk-button button-white-color-1st animated fadeInUp delay-2s fast">
+         home.hero_network.action 
+      </a>-->
+      </div>
+    </div>
+    <div class="uk-container uk-container-xlarge uk-text-center uk-width-1-2@m scroll-container">
+      <div class="scroll-portada uk-margin-medium-top">
+        <p class="animated fadeInUp delay-2s fast"> home.hero_network.parrafo </p>
+        <a href="#historias" uk-scroll class="animated fadeInUp delay-2s fast uk-visible@m"><i
+            class="uil uil-angle-down"></i></a>
+        <a href="#historias" uk-scroll class="animated fadeInUp delay-2s fast uk-hidden@m"><i
+            class="uil uil-angle-down"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="hero" class="uk-hidden">
+  <div
+    class="uk-height-viewport uk-flex uk-flex-center uk-inline uk-flex-middle uk-background-cover uk-light animated fadeIn delay-1s fast"
+    data-src="assets/images/historias/historias-portada-home.gif" uk-img>
+    <div class="uk-container uk-text-center uk-width-2-3@m">
+      <div>
+        <img class="animated fadeInUp delay-2s fast" style="margin-top: 120px;" data-src="/assets/images/logo-hero.svg"
+          uk-img>
+        <h1 class="animated fadeInUp delay-2s fast" style="margin-top: 30px;"> home.hero.title </h1>
+        <a class="icon-hero" href="#welcome" uk-scroll>
+          <svg class="animated fadeInUp delay-2s fast" width="30" height="31" viewBox="0 0 30 31" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M9.16451 28.8243C11.0137 29.6081 12.9773 30.0041 15.002 30.0041C17.0268 30.0041 18.9903 29.6081 20.8396 28.8162C22.6276 28.061 24.2319 26.9792 25.6076 25.6035C26.9833 24.2278 28.065 22.6235 28.8202 20.8355C29.604 18.9863 30 17.0186 30 14.998C30 12.9773 29.604 11.0097 28.8202 9.16043C28.065 7.37243 26.9833 5.76813 25.6076 4.39243C24.2319 3.01674 22.6276 1.93496 20.8396 1.17975C18.9903 0.395972 17.0268 0 15.002 0C12.9773 0 11.0137 0.395972 9.16043 1.18383C7.37243 1.93904 5.76813 3.02082 4.39243 4.39652C3.01674 5.77221 1.93496 7.37651 1.17975 9.16451C0.395972 11.0137 0 12.9773 0 15.002C0 17.0268 0.395972 18.9903 1.18383 20.8437C1.93904 22.6317 3.02082 24.236 4.39652 25.6116C5.77221 26.9873 7.37651 28.0691 9.16451 28.8243ZM5.83753 5.83753C8.28684 3.38822 11.5403 2.04109 15.002 2.04109C18.4637 2.04109 21.7213 3.38822 24.1666 5.83753C26.6118 8.28684 27.963 11.5403 27.963 15.002C27.963 18.4637 26.6159 21.7172 24.1666 24.1666C21.7172 26.6159 18.4637 27.963 15.002 27.963C11.5403 27.963 8.28684 26.6159 5.83753 24.1666C3.38822 21.7172 2.04109 18.4637 2.04109 15.002C2.04109 11.5403 3.38822 8.28684 5.83753 5.83753ZM20.3496 12.0016C20.6804 12.0016 20.9978 12.1322 21.2325 12.3648C21.3499 12.4809 21.443 12.619 21.5066 12.7712C21.5702 12.9234 21.6029 13.0866 21.6029 13.2515C21.6029 13.4164 21.5702 13.5796 21.5066 13.7318C21.443 13.884 21.3499 14.0221 21.2325 14.1382L15.8599 19.4333C15.7435 19.5504 15.605 19.6433 15.4524 19.7067C15.2997 19.7701 15.1361 19.8027 14.9707 19.8027C14.8054 19.8027 14.6417 19.7701 14.4891 19.7067C14.3365 19.6433 14.198 19.5504 14.0816 19.4333L8.77158 14.1382C8.6542 14.0221 8.56103 13.884 8.49745 13.7318C8.43387 13.5796 8.40114 13.4164 8.40114 13.2515C8.40114 13.0866 8.43387 12.9234 8.49745 12.7712C8.56103 12.619 8.6542 12.4809 8.77158 12.3648C9.00623 12.1322 9.32364 12.0016 9.65449 12.0016C9.98534 12.0016 10.3028 12.1322 10.5374 12.3648L14.9707 16.7857L19.4667 12.3648C19.7013 12.1322 20.0187 12.0016 20.3496 12.0016Z"
+              fill="white" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ content }}
+
+
 <div class="home">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+  <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+  <ul class="post-list">
+    {%- for post in site.posts -%}
+    <li>
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
 </div>
