@@ -138,6 +138,22 @@ p, body{
   font-weight: bold;
 
 }
+.uk-button-secondary{
+  background-color: $yellow;
+  color: black;
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.uk-button-secondary:hover,
+.uk-button-secondary:focus{
+  background-color: $yellow;
+  color: black;
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+
+}
 
 .li-nav{
   font-family: 'Sora', sans-serif;
