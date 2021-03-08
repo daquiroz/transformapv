@@ -1,55 +1,117 @@
 <header>
-  <div id="inicio" class="uk-position-relative">
-    <div class="uk-height-viewport uk-background-cover uk-flex uk-flex-between uk-flex-middle" data-src="assets/img/tomas_rocio_web2.jpg" uk-img>
-      <!-- <div>
-        <h2 class="animated fadeInUp delay-2s fast"> Tomás Garate
-        </h2>
-        <h3>Alcalde</h3>
+  <div id="inicio">
+    <div class="uk-visible@m" class="uk-position-relative">  
+      <div class="uk-height-viewport uk-background-cover uk-flex uk-flex-between uk-flex-middle" data-src="assets/img/tomas_rocio_web2.jpg" uk-img>
+        <!-- <div>
+          <h2 class="animated fadeInUp delay-2s fast"> Tomás Garate
+          </h2>
+          <h3>Alcalde</h3>
+        </div>
+        <div>
+          <h2 class="animated fadeInUp delay-2s fast"> Rocio Silva      </h2>
+          <h3> Concejala</h3>
+        </div> -->
       </div>
-      <div>
-        <h2 class="animated fadeInUp delay-2s fast"> Rocio Silva      </h2>
-        <h3> Concejala</h3>
-      </div> -->
-    </div>
 
-    <div class="uk-position-bottom bg-dark uk-text-center uk-padding-small">
-      <h1 class="yellow"> Ahora es cuando! </h1>
-    </div>
+      <div class="uk-position-bottom bg-dark uk-text-center uk-padding-small">
+        <h1 class="yellow h1-header"> Ahora es cuando! </h1>
+      </div>
 
-    <div class="uk-position-top">
-      <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-        <div class="uk-navbar-left">
-          <ul class="uk-navbar-nav uk-padding-large uk-padding-remove-right uk-padding-remove-bottom uk-padding-remove-top">
-            <li>
-              <a href="#">
-                <span class="uk-icon uk-margin-small-right " uk-icon="icon: facebook"></span>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="uk-icon uk-margin-small-right" uk-icon="icon: instagram"></span>
-              </a>
-            </li>
-          </ul>
+      <div class="uk-position-top">
+        <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+
+        <nav class="uk-navbar-container  height-navbar-desktop" uk-navbar>
+          <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav uk-padding-large uk-padding-remove-right uk-padding-remove-bottom uk-padding-remove-top">
+              <li>
+                <a href="#">
+                  <span class="uk-icon uk-margin-small-right " uk-icon="icon: facebook"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="uk-icon uk-margin-small-right" uk-icon="icon: instagram"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="uk-navbar-center uk-visible@m">
+            <ul class="uk-navbar-nav">
+              <!-- <li class="uk-active"><a href="#">Active</a></li> -->
+              <li class="uk-padding-small li-nav"><a href="#inicio">Inicio</a></li>
+              <li class="uk-padding-small li-nav"><a href="#">Súmate</a></li>
+              <li class="uk-padding-small li-nav"><a href="#candidaturas">Candidaturas</a></li>
+              <li class="uk-padding-small li-nav"><a href="#propuestas">Propuestas</a></li>
+            </ul>
+          </div>
+          <div class="uk-navbar-right">
+            <a class="uk-navbar-item uk-logo uk-padding-large uk-padding-remove-left uk-padding-remove-bottom uk-padding-remove-top" href="#">
+              <img src="assets/img/logo.png"/> 
+            </a>
+          </div>
+        </nav>
         </div>
+      </div>
+  </div>
+</div>
 
-        <div class="uk-navbar-center uk-visible@m">
-          <ul class="uk-navbar-nav">
-            <!-- <li class="uk-active"><a href="#">Active</a></li> -->
-            <li class="uk-padding-small li-nav"><a href="#">Súmate</a></li>
-            <li class="uk-padding-small li-nav"><a href="#inicio">Inicio</a></li>
-            <li class="uk-padding-small li-nav"><a href="#candidaturas">Candidaturas</a></li>
-            <li class="uk-padding-small li-nav"><a href="#propuestas">Propuestas</a></li>
+<div class="uk-hidden@m">  
+  <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    <nav class="uk-navbar-container height-navbar-mobile" uk-navbar>
+      <div class="uk-navbar-left">
+        <ul class="uk-navbar-nav">
+          <li>
+            <a href="https://facebook.com/transformapv" target="_blank">
+              <span class="uk-icon" uk-icon="icon: facebook"></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/transformapv" target="_blank">
+              <span class="uk-icon" uk-icon="icon: instagram"></span>
+            </a>
+          </li>
+          <li>
+            <a class="uk-navbar-toggle" href="#">
+              <span uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span>
+            </a>
+            <div class="uk-navbar-dropdown">
+              <ul class="uk-nav uk-navbar-dropdown-nav">
+                <li class=""><a href="#inicio">Inicio</a></li>
+                <li class=""><a href="#">Súmate</a></li>
+                <li class=""><a href="#candidaturas">Candidaturas</a></li>
+                <li class=""><a href="#propuestas">Propuestas</a></li>
+              </ul>
+            </div>
+        </li>
+        </ul>
 
-          </ul>
-        </div>
-        <div class="uk-navbar-right">
-          <a class="uk-navbar-item uk-logo uk-padding-large uk-padding-remove-left uk-padding-remove-bottom uk-padding-remove-top" href="#">
-            <img src="assets/img/logo.png"/> 
-          </a>
-        </div>
-      </nav>
-    </div>
+      </div>
+      <div class="uk-navbar-right">
+        <a class="uk-navbar-item uk-logo" href="#">
+          <img width="80px" src="assets/img/logo.png"/> 
+        </a>
+      </div>
+    </nav>    
+  </div>
+
+  <div class="uk-height-large uk-background-cover uk-flex uk-flex-between uk-flex-middle" data-src="assets/img/tomas_rocio_mobile2-02.png" uk-img>
+    <!-- <div>
+      Algo dentro de la imagen
+    </div> -->
+  </div>
+
+  <div class="bg-dark uk-text-center uk-padding uk-padding-remove-left uk-padding-remove-right">
+    <h1 class="yellow "> Ahora es cuando! </h1>
+  </div>
+
+
+  <!-- <div class="">
+    <nav class="uk-navbar-container" uk-navbar>
+
+    </nav>
+  </div> -->
+
 </div>
 
 </header>

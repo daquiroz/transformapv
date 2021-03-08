@@ -149,3 +149,19 @@ p, body{
   text-transform: capitalize;
   font-size: 1rem;
 }
+
+.height-navbar-mobile{
+  height: 70px;
+}
+
+.height-navbar-desktop{
+  height: 90px;
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent){
+  background-color: white;
+}
+
+.h1-header{
+  font-size: 4rem;
+}
