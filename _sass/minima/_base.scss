@@ -38,7 +38,114 @@ $grey-color-light: #ddd;
   background-color: $green;
 }
 
+.bg-dark{
+  background-color:#000;
+}
+
+.black{
+  color: #000;
+}
+
+.white{
+  color: white;
+}
+
+h1, h2, h3, h4, .uk-h1, .uk-h2, .uk-h3 {
+  font-family: 'Sora', sans-serif;
+  font-weight: bold;
+}
+
 footer, header{
   background-color: $grey-color-dark;
 }
 
+p, body{
+  font-family: 'Archivo', sans-serif;
+}
+
+.li-proposals{
+  padding: 2px; 
+  margin-bottom: 20px;
+  padding-left: 10px;
+  width: 200px;
+  background-color: #ddd;
+  color: black;
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+}
+.li-equitativa{
+  padding: 2px; 
+  margin-bottom: 20px;
+  padding-left: 10px;
+  width: 200px;
+  background-color: $cyan;
+  color: black;
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+}
+.li-verde{
+  padding: 2px; 
+  margin-bottom: 20px;
+  padding-left: 10px;
+  width: 200px;
+  background-color: $green;
+  color: black;
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+}
+.li-planificada{
+  padding: 2px; 
+  margin-bottom: 20px;
+  padding-left: 10px;
+  width: 200px;
+  background-color: $magenta;
+  color: black;
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+}
+.li-participativa{
+  padding: 2px; 
+  margin-bottom: 20px;
+  padding-left: 10px;
+  width: 200px;
+  background-color: $yellow;
+  color: black;
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+}
+
+.uk-link, a{
+  color: white;
+}
+
+.uk-link:hover, a:hover{
+  color: #aaa;
+}
+
+.uk-button-primary{
+  background-color: $magenta;
+  color: black;
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.uk-button-primary:hover,
+.uk-button-primary:focus{
+  background-color: $magenta;
+  color: #aaa;
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+
+}
+
+.li-nav{
+  font-family: 'Sora', sans-serif;
+  color: black;
+  font-size: 17px;
+}
+
+.uk-navbar-nav > li > a {
+  text-transform: capitalize;
+  font-size: 1rem;
+}

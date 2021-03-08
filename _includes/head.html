@@ -4,12 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
 
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  {%- feed_meta -%}
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
-  {%- endif -%}
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Sora:wght@300;400;700&display=swap" rel="stylesheet"> 
 
   <!-- UIkit CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.11/dist/css/uikit.min.css" />
@@ -17,5 +14,13 @@
   <!-- UIkit JS -->
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.11/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.11/dist/js/uikit-icons.min.js"></script>
+
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 
 </head>
