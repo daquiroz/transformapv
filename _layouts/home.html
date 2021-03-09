@@ -92,28 +92,10 @@ layout: default
               <p class="white uk-margin-remove"> con medidas específicas.</p>
               <p class="white">A la izquierda encontrarás un resumen por eje, y si quieres revisar el programa completo descargalo acá:</p>
               <button href="#modal-download" class="uk-button uk-button-primary uk-button-large" uk-toggle>descargar programa</button>
-          </div>
+            </div>
           </div>
         </div>
 
-        <div id="modal-download" class="uk-flex-top" uk-modal>
-          <div class="uk-modal-dialog bg-magenta uk-modal-body uk-margin-auto-vertical uk-padding-large">
-            <button class="uk-modal-close-default black" type="button" uk-close></button>
-            <h2 class="black"> quieres conocer más de nuestro programa? </h2>
-            <form name="contact" method="POST" data-netlify="true" action="/success">
-              <div class="uk-margin">
-                <input class="uk-input" type="text" name="name" placeholder="nombre">
-              </div>
-              <div class="uk-margin">
-                <input class="uk-input" type="text" name="mobile" placeholder="celular">
-              </div>
-              <div class="uk-margin">
-                <input class="uk-input" type="email" name="email" placeholder="tu mail">
-              </div>
-              <button type="submit" class="uk-button uk-button-secondary">lo quiero!</button>
-            </form>
-          </div>
-      </div>
 
         <div id="comuna-equitativa padding-right">
           <h2 class="white">Propuestas</h2>
@@ -187,4 +169,24 @@ layout: default
 <div class="uk-background-cover" uk-parallax="bgy: -200" style="background-image: url('assets/img/bg_tpv2.png');">
   <section class="uk-section">
   </section>
+</div>
+
+
+<div id="modal-download" class="uk-flex-top" uk-modal>
+  <div class="uk-modal-dialog bg-magenta uk-modal-body uk-margin-auto-vertical uk-padding-large">
+    <button class="uk-modal-close-default black" type="button" uk-close></button>
+    <h2 class="black"> quieres conocer más de nuestro programa? </h2>
+    <form name="contact" method="POST" data-netlify="true" action="/success">
+      <div class="uk-margin">
+        <input class="uk-input" type="text" name="name" placeholder="nombre">
+      </div>
+      <div class="uk-margin">
+        <input class="uk-input" type="text" name="mobile" placeholder="celular">
+      </div>
+      <div class="uk-margin">
+        <input class="uk-input" type="email" name="email" placeholder="tu mail">
+      </div>
+      <button type="submit" class="uk-button uk-button-secondary">lo quiero!</button>
+    </form>
+  </div>
 </div>
