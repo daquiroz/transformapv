@@ -47,7 +47,7 @@
             </ul>
           </div>
           <div class="uk-navbar-right">
-            <a class="uk-navbar-item uk-logo uk-padding-large uk-padding-remove-left uk-padding-remove-bottom uk-padding-remove-top" href="https://transformapuertovaras.cl/index.php/acerca/">
+            <a class="uk-navbar-item uk-logo uk-padding-large uk-padding-remove-left uk-padding-remove-bottom uk-padding-remove-top" target="_blank" href="https://transformapuertovaras.cl/index.php/acerca/">
               <img src="assets/img/logo.png" width="120px"/> 
             </a>
           </div>
@@ -61,7 +61,7 @@
     <div class="uk-modal-dialog bg-magenta uk-modal-body uk-margin-auto-vertical uk-padding-large">
       <button class="uk-modal-close-default black" type="button" uk-close></button>
       <h2 class="black"> quieres sumarte a la campaña? </h2>
-      <form name="contact" method="POST" data-netlify="true" action="/success">
+      <form name="contact" method="POST" data-netlify="true" action="/">
         <div class="uk-margin">
           <input class="uk-input" type="text" name="name" placeholder="nombre">
         </div>
@@ -74,12 +74,11 @@
 
         <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
           <p class="black">¿En qué modalidad te gustaría ser parte de la campaña de Transforma?</p>
-            <label class="black"><input class="uk-checkbox bg-light" type="checkbox"> Equipo territorial en volanteos y puerta a puerta</label>
-            <label class="black"><input class="uk-checkbox bg-light" type="checkbox"> Sólo recibir mails con actualización de la campaña</label>
-            <label class="black"><input class="uk-checkbox bg-light" type="checkbox"> Siendo un o una activista digital</label>
+            <label class="black"><input class="uk-checkbox bg-light" name="equipo_territorial" type="checkbox"> Equipo territorial en volanteos y puerta a puerta</label>
+            <label class="black"><input class="uk-checkbox bg-light" name="suscripcion_email" type="checkbox"> Sólo recibir mails con actualización de la campaña</label>
+            <label class="black"><input class="uk-checkbox bg-light" name="activista_digital" type="checkbox"> Siendo un o una activista digital</label>
         </div>
-
-        <button type="submit" class="uk-button uk-button-secondary"><a class="black" href="https://transformapv.cl/">sumarme</a></button>
+        <button type="submit" class="uk-button uk-button-secondary">sumarme</button>
       </form>
     </div>
 </div>
@@ -116,7 +115,7 @@
 
       </div>
       <div class="uk-navbar-right">
-        <a class="uk-navbar-item uk-logo" href="https://transformapuertovaras.cl/index.php/acerca/">
+        <a class="uk-navbar-item uk-logo" target="_blank" href="https://transformapuertovaras.cl/index.php/acerca/">
           <img width="80px" src="assets/img/logo.png"/> 
         </a>
       </div>
