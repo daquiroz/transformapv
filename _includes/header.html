@@ -59,41 +59,24 @@
 </div>
 
 
-<!-- 
-<form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form> -->
 
 
 <div id="modal-join" class="uk-flex-top" uk-modal>
     <div class="uk-modal-dialog bg-magenta uk-modal-body uk-margin-auto-vertical uk-padding-large">
       <button class="uk-modal-close-default black" type="button" uk-close></button>
       <h2 class="black"> quieres conocer más de nuestro programa? </h2>
-      <div class="uk-margin">
-        <input class="uk-input" type="text" placeholder="nombre">
-      </div>
-      <div class="uk-margin">
-        <input class="uk-input" type="text" placeholder="tu mail">
-      </div>
-      <button class="uk-button uk-button-secondary"><a class="black" href="https://transformapv.cl/wp-content/uploads/2021/02/Programa-Transforma.pdf">lo quiero!</a></button>
-
+      <form name="contact" method="POST" data-netlify="true" action="/">
+        <div class="uk-margin">
+          <input class="uk-input" type="text" name="name" placeholder="nombre">
+        </div>
+        <div class="uk-margin">
+          <input class="uk-input" type="text" name="mobile" placeholder="celular">
+        </div>
+        <div class="uk-margin">
+          <input class="uk-input" type="email" name="email" placeholder="tu mail">
+        </div>
+        <button type="submit" class="uk-button uk-button-secondary"><a class="black" href="https://transformapv.cl/wp-content/uploads/2021/02/Programa-Transforma.pdf">lo quiero!</a></button>
+      </form>
     </div>
 </div>
 
